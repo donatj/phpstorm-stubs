@@ -371,9 +371,9 @@ class DateTimeImmutable implements DateTimeInterface
      * @link https://secure.php.net/manual/en/datetime.diff.php
      * @param DateTimeInterface $targetObject <p>The date to compare to.</p>
      * @param bool $absolute [optional] <p>Should the interval be forced to be positive?</p>
-     * @return DateInterval|false
+     * @return DateInterval
      * The {@link https://secure.php.net/manual/en/class.dateinterval.php DateInterval} object representing the
-     * difference between the two dates or <b>FALSE</b> on failure.
+     * difference between the two dates.
      */
     #[TentativeType]
     public function diff(
